@@ -1,0 +1,347 @@
+﻿
+body {
+    padding-bottom: 20px;
+	font-size: 16px;
+}
+
+.head-img {
+  background-image: url("../img/top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.navbar-inverse {
+    background-color: #286090;
+}
+
+.navbar-nav > li > a, a.navbar-brand {
+  color: #e6e4e4 !important;
+}
+
+.navbar-nav > li > a:hover, a.navbar-brand:hover {
+  color: #fff !important;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav > li {
+  font-size:18px;
+}
+
+div.msginfo{
+	font-size:1.2em;
+	font-weight:bold;
+	margin-bottom:20px;
+	color:red;
+}
+
+div.admin ul{
+	list-style-type: none;
+	margin: 0;
+	margin-bottom:15px;
+	padding: 0;
+	display:block;
+	float: left;
+}
+div.admin ul li {
+  float: left;
+}
+
+div.admin ul li a {
+  display: block;
+  color: black;
+  font-weight:bold;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+div.admin ul li a.active {
+  color: red;
+}
+
+div.admin table td{
+	vertical-align: middle;
+}
+
+table.table-striped tr > td
+{
+	vertical-align: middle;
+}
+
+div.admin h4{
+	font-weight:bold;
+	padding-left: 16px;
+}
+
+div.admin div.details, div.admin div.msginfo{
+	padding-top: 5px;
+	padding-left: 16px;
+}
+
+div.admin div.details, label {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+label {
+	display: block;
+}
+
+table.radioButton td
+{
+	width: 100px;
+}
+
+table.radioButton td label {
+	display: initial;
+	padding-left: 10px;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+	min-width: 600px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	/*background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 200px;*/
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    min-width: 500px;
+}
+}
+
+@media screen and (min-width: 451px) and (max-width: 550px) {
+    input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    min-width: 400px;
+}
+}
+
+@media screen and (max-width: 450px) {
+    input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    min-width: 300px;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 10px;  
+		margin-bottom: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+    }
+}
+
+.vijest div.img {
+	width: 200px;
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 1em 0 0;
+}
+.vijest div img {
+	width: 100%;
+}
+.vijest div.txt {
+}
+
+.vijest time {
+	font-size: 95%;
+	font-style: italic;
+}
+
+.vijest h2 {
+	margin: 0.5em 0;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.vijest hr {
+	margin: 1em 0;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+.vijestvise div.img {
+	width: 40%;
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 1em 0 0;
+}
+.vijestvise div img {
+	width: 100%;
+}
+.vijestvise div.txt {
+}
+
+.vijestvise time {
+	font-size: 95%;
+	font-style: italic;
+}
+
+.vijestvise h2 {
+	margin: 0.5em 0;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.vijestvise hr {
+	margin: 1em 0;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .vijestvise div.img {
+	width: 100%;
+}
+}
+
+.proizvodi .pr {
+	float:left;
+	width: 25%;
+	padding-bottom:15px;
+	margin-bottom:20px;
+	border-bottom: 1px solid #d9d7d7;
+}
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    .proizvodi .pr {
+	width: 50%;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .proizvodi .pr {
+	width: 100%;
+}
+}
+
+.proizvodi .pr .title
+{
+	margin: 0 0 5px 0;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.4;
+padding: 0 4px 6px;
+height: 40px;
+overflow: hidden;
+color: #4b5a6d;
+}
+
+.proizvodi .pr .price
+{
+	color: #000000;
+text-align: left;
+font-size: 16px;
+line-height: 1.1;
+font-weight: 700;
+padding: 0 4px 0;
+display: inline-block;
+}
+
+.proizvodi .pr .basket
+{
+	margin: 5px 0px;
+	width: 90%;
+}
+
+.proizvodvise .basket
+{
+	margin: 5px 0px;
+}
+
+.basket .btn
+{
+	font-weight: bold;
+}
+
+.proizvodi div.prin {
+	display: flex;
+	flex-direction: column;
+}
+
+.proizvodi div.prin .thumb {
+  display: flex;
+  margin-bottom: 12px;
+  text-align: center;
+  height: 200px;
+  padding: 0 10px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.proizvodi div.prin .thumb img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.proizvodvise div.img {
+	/*width: 50%;*/
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 1em 0 0;
+}
+.proizvodvise div img {
+	width: 100%;
+}
+.proizvodvise div.txt {
+}
+
+.proizvodvise time {
+	font-size: 90%;
+	font-style: italic;
+}
+
+.proizvodvise h2 {
+	margin: 0.5em 0;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.proizvodvise hr {
+	margin: 1em 0;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+.proizvodvise .price
+{
+	color: #000000;
+text-align: left;
+font-size: 16px;
+line-height: 1.1;
+font-weight: 700;
+padding: 0 4px 0;
+display: inline-block;
+}
+
